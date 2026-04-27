@@ -29,5 +29,5 @@ if st.button("Predict"):
                     st.error("Fake News")
 
             else:
-                st.warning("Please enter some text to predict!")
+                st.warning("Please enter some text to Predict that it is Real OR Fake")
 
