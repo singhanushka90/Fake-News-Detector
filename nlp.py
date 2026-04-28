@@ -48,8 +48,8 @@ if st.button("🔍 Analyze News"):
 
         # Show probability breakdown
         st.subheader("🔎 Prediction Details")
-        st.write(f"REL News Probability: {round(prob[1]*100,2)}%")
-        st.write(f"F News Probability: {round(prob[0]*100,2)}%")
+        st.write(f"Real News Probability: {round(prob[1]*100,2)}%")
+        st.write(f"Fake News Probability: {round(prob[0]*100,2)}%")
 
         # Extra feature: show processed text (optional)
         with st.expander("🔧 Processed Text"):
