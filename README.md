@@ -1,5 +1,5 @@
 <!-- 🔥 HERO BANNER --><p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=yellow,100:ef4444&height=200&section=header&text=Fake%20News%20Detection%20System&fontSize=35&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=yellow,yellow&height=200&section=header&text=Fake%20News%20Detection%20System&fontSize=35&fontColor=yellow" />
 </p><h1 align="center">📰 Fake News Detection System</h1>
 <h3 align="center">AI-Powered News Authenticity Classification</h3><p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white" />
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
 </p><hr/><!-- 🔥 OVERVIEW --><h2>🧠 Overview</h2><p>
 A <b>machine learning-based NLP system</b> designed to classify news articles as <b>Real 🟢</b> or <b>Fake 🔴</b>.
-The pROJECTTTTTTt focuses on tackling misinformation using text-based aNALYSISSSis.
+The project focuses on tackling misinformation using text-based analysis.
 </p><p>
 <b>Goal:</b> AutomATICALLYYYYYYYY detect whether a given news text is genuine or misleading using trained ML models.
 </p>«🔍 <b>Use Case:</b> Helps reduce the spread of fake news and misinformation online.»
