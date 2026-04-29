@@ -1,5 +1,5 @@
 <!-- 🔥 HERO BANNER --><p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:ef4444&height=200&section=header&text=Fake%20News%20Detection%20System&fontSize=35&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=yellow,100:ef4444&height=200&section=header&text=Fake%20News%20Detection%20System&fontSize=35&fontColor=ffffff" />
 </p><h1 align="center">📰 Fake News Detection System</h1>
 <h3 align="center">AI-Powered News Authenticity Classification</h3><p align="center">
   <img src="https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white" />
@@ -102,7 +102,7 @@ print("Real News" if prediction[0] == 1 else "Fake News")
 📡 API| Real-time news checking
 📊 Visualization| Dashboard analytics
 
-<hr/><!-- 🔥 AUTHOR --><h2>👨‍💻 AuTHOhor</h2><p align="center">
+<hr/><!-- 🔥 AUTHOR --><h2>👨‍💻 Author</h2><p align="center">
   <b>Anushka Singh</b><br/>
   AI Engineer | NLP | Machine Learning<br/>
 </p><hr/><h2 align="center">⚡ Final Insight</h2><p align="center">
