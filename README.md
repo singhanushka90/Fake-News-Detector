@@ -1,81 +1,137 @@
-<!-- 🔥 HERO BANNER --><p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,100:7c3aed&height=200&section=header&text=Fake%20News%20Detection%20System&fontSize=35&fontColor=ffffff" />
-</p><h1 align="center">📰 Fake News Detection System</h1>
-<h3 align="center">AI-Powered News Authenticity Classification</h3><p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-1e3a8a?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLP-TF--IDF-7c3aed?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Model-Naive%20Bayes-4f46e5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Active-06b6d4?style=for-the-badge" />
-</p><hr/><!-- 🔥 OVERVIEW --><h2>🧠 Overview</h2><p>
-A <b>machine learning-based NLP system</b> designed to classify news articles as <b>Real 🟢</b> or <b>Fake 🔴</b>.
-The project focuses on tackling misinformation using text-based analysis.
-</p><p>
-<b>Goal:</b> Automatically detect whether a given news text is genuine or misleading using trained ML models.
-</p>«🔍 <b>Use Case:</b> Helps reduce the spread of fake news and misinformation online.»
+<!-- 🔥 HERO BANNER -->
 
-<hr/><!-- 🔥 PIPELINE --><h2>⚙️ System Pipeline</h2>┌─────────────────┐
-│  Data Ingestion │
-│ (Fake.csv/True) │
-└────────┬────────┘
-         ↓
-┌─────────────────┐
-│ Text Cleaning   │
-│ Lowercase, RegEx│
-└────────┬────────┘
-         ↓
-┌─────────────────┐
-│ Feature Extract │
-│ TF-IDF Vector   │
-└────────┬────────┘
-         ↓
-┌─────────────────┐
-│ Model Training  │
-│ Naive Bayes     │
-└────────┬────────┘
-         ↓
-┌─────────────────┐
-│ Prediction      │
-│ Real / Fake     │
-└─────────────────┘
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:6366f1&height=220&section=header&text=Fake%20News%20Detection%20System&fontSize=38&fontColor=ffffff&animation=fadeIn" />
+</p>
 
-<hr/><!-- 🔥 FEATURES --><h2>✨ Key Features</h2>Feature| Description
-🧠 NLP-Based Classification| Uses TF-IDF for text representation
-⚡ Fast Prediction| Lightweight Naive Bayes model
-📊 Clean Pipeline| End-to-end ML workflow
-🔍 Text Processing| Noise removal and normalization
-📈 High Accuracy| ~90%+ performance
-🧪 Custom Input Testing| Test with real-world news
+<h1 align="center">📰 Fake News Detection System</h1>
+<h3 align="center">🚀 AI-Powered News Authenticity Classifier</h3>
 
-<hr/><!-- 🔥 TECH --><h2>⚙️ Technical Implementation</h2><ul>
-  <li><b>Text preprocessing</b> using RegEx and normalization</li>
-  <li><b>TF-IDF vectorization</b> for feature extraction</li>
-  <li><b>Multinomial Naive Bayes</b> for classification</li>
-  <li>Clean and modular pipeline (<code>nlp.py</code>)</li>
-  <li>Model serialization using Pickle</li>
-</ul><hr/><!-- 🔥 MODEL --><h2>🤖 Model Used</h2>Model| Type| Status
-<b>Multinomial Naive Bayes</b>| Probabilistic| ✅ Final Model
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-0f172a?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NLP-TF--IDF-6366f1?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Model-Naive%20Bayes-8b5cf6?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge"/>
+</p>
 
-«💡 Optimized for speed and performance on text classification tasks.»
+---
 
-<hr/><!-- 🔥 PERFORMANCE --><h2>📊 Performance</h2><ul>
-  <li><b>Accuracy:</b> ~90%+</li>
-  <li><b>Efficient on large text data</b></li>
-  <li><b>Low computational cost</b></li>
-</ul><hr/><!-- 🔥 DATASET --><h2>📂 Dataset</h2><p>Dataset contains real and fake news articles.</p>File| Description
-<b>Fake.csv</b>| Fake news dataset
-<b>true.csv</b>| Real news dataset
+## 🧠 Overview
 
-<p><b>Target:</b> Binary Classification → Real (1) / Fake (0)</p><hr/><!-- 🔥 FILES --><h2>📁 Project Files</h2>Fake_News_Detection/
-├── 📓 True_f.ipynb
-├── 📄 nlp.py
-├── 🤖 nb_model.pkl
-├── 🔤 tfidf.pkl
-├── 📊 Fake.csv
-├── 📊 true.csv
+This project is a **Machine Learning + NLP system** that classifies news articles as:
+
+* 🟢 **Real News**
+* 🔴 **Fake News**
+
+🎯 **Goal:** Detect misinformation automatically using trained ML models.
+🔍 **Use Case:** Helps reduce the spread of fake news online.
+
+---
+
+## ⚙️ System Pipeline
+
+```
+Data Ingestion (Fake.csv / True.csv)
+        ↓
+Text Cleaning (Lowercase + Regex)
+        ↓
+TF-IDF Vectorization
+        ↓
+Naive Bayes Model Training
+        ↓
+Prediction (Real / Fake)
+```
+
+---
+
+## ✨ Key Features
+
+| Feature            | Description                    |
+| ------------------ | ------------------------------ |
+| 🧠 NLP-Based       | TF-IDF for text representation |
+| ⚡ Fast             | Lightweight Naive Bayes model  |
+| 📊 Clean Pipeline  | End-to-end ML workflow         |
+| 🔍 Text Processing | Noise removal & normalization  |
+| 📈 High Accuracy   | ~90%+                          |
+| 🧪 Custom Testing  | Test real-world news           |
+
+---
+
+## ⚙️ Tech Stack
+
+* 🐍 Python
+* 📊 Pandas, NumPy
+* 🔠 Scikit-learn
+* 📉 TF-IDF Vectorizer
+* 🤖 Naive Bayes
+
+---
+
+## 🤖 Model
+
+| Model                   | Type          | Status  |
+| ----------------------- | ------------- | ------- |
+| Multinomial Naive Bayes | Probabilistic | ✅ Final |
+
+💡 Optimized for **speed + efficiency** in text classification.
+
+---
+
+## 📊 Performance
+
+* ✅ Accuracy: **~90%+**
+* ⚡ Fast inference
+* 💻 Low computational cost
+
+---
+
+## 📂 Dataset
+
+| File     | Description |
+| -------- | ----------- |
+| Fake.csv | Fake news   |
+| True.csv | Real news   |
+
+🎯 **Target:**
+
+* `1 → Real`
+* `0 → Fake`
+
+---
+
+## 📁 Project Structure
+
+```
+Fake_News_Detection/
+│
+├── 📓 True_f.ipynb        # Training notebook
+├── 📄 nlp.py              # Preprocessing pipeline
+├── 🤖 nb_model.pkl        # Trained model
+├── 🔤 tfidf.pkl           # Vectorizer
+├── 📊 Fake.csv            # Fake dataset
+├── 📊 True.csv            # Real dataset
 └── 📖 README.md
+```
 
-<hr/><!-- 🔥 FINAL --><h2 align="center">⚡ Final Insight</h2><p align="center">
-<b>"Fighting misinformation with intelligent systems."</b>
-</p><hr/><p align="center">
-⭐ Star this repository if you found it useful!
+---
+
+## 🚀 Future Improvements
+
+* 🌐 Web App (Streamlit)
+* 📊 Visualization Dashboard
+* 🧠 Explainable AI (word importance)
+* 🔗 News URL detection
+
+---
+
+## ⚡ Final Insight
+
+<p align="center">
+<b>“Fighting misinformation with intelligent systems.”</b>
+</p>
+
+---
+
+<p align="center">
+⭐ If you found this useful, don't forget to star the repo!
 </p>
