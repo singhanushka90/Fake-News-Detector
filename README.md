@@ -4,7 +4,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:6366f1&height=220&section=header&text=Fake%20News%20Detection&fontSize=38&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<h1 align="center">📰 Fake News Detection System</h1>
+<h1 align="center">📰 Fake News Detection</h1>
 <h3 align="center">🚀 AI-Powered News Authenticity Classifier</h3>
 
 <p align="center">
