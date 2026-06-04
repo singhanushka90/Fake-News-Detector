@@ -18,7 +18,7 @@
 
 ## 🧠 Overview
 
-This project is a **Machine Learning + NLP system** that classifies news articles as:
+This project is a **Machine Learning + NLP project** that classifies news articles as:
 
 * 🟢 **Real News**
 * 🔴 **Fake News**
