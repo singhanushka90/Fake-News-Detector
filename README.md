@@ -127,7 +127,7 @@ Fake_News_Detection/
 ## ⚡ Final Insight
 
 <p align="center">
-<b>“Fighting misinformation with intelligent systems.”</b>
+<b>“Fighting misinformation with intelligent project.”</b>
 </p>
 
 ---
